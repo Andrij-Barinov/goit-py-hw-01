@@ -8,7 +8,7 @@
 
 name = 'Данило'
 age = 36
-print("ЗАДАЧА #1 :",name,",",age)
+print("ЗАДАЧА #1 :", name, ",", age)
 
 
 
@@ -29,7 +29,7 @@ print("ЗАДАЧА #1 :",name,",",age)
 rate = 1.68
 value = 1234
 payment = rate * value
-print("ЗАДАЧА #2 :",payment)
+print("ЗАДАЧА #2 :", payment)
 
 
 
@@ -51,8 +51,8 @@ print("ЗАДАЧА #2 :",payment)
 rate = 1.68
 value_day = 2345
 value_night = 1234
-payment = value_day*rate+value_night*rate/2
-print("ЗАДАЧА #3 :",payment)
+payment = value_day * rate + value_night * rate / 2
+print("ЗАДАЧА #3 :", payment)
 
 
 
@@ -78,7 +78,7 @@ print("ЗАДАЧА #3 :",payment)
 
 first_name = 'Andrii'
 last_name = 'Barinov'
-print("ЗАДАЧА #4 :",first_name,last_name)
+print("ЗАДАЧА #4 :", first_name, last_name)
 
 
 
@@ -107,8 +107,8 @@ print("ЗАДАЧА #4 :",first_name,last_name)
 
 first_name = 'Andrii'
 last_name = 'Barinov'
-full_name = first_name+" "+last_name
-print("ЗАДАЧА #5 :",full_name)
+full_name = first_name + " " + last_name
+print("ЗАДАЧА #5 :", full_name)
 
 
 
@@ -139,9 +139,9 @@ print("ЗАДАЧА #5 :",full_name)
 
 length = 2.75
 width = 1.75
-area = length*width
+area = length * width
 show = f"With width {width} and length {length} of the room, its area is equal to {area}"
-print("ЗАДАЧА #6 :",show)
+print("ЗАДАЧА #6 :", show)
 
 
 
@@ -161,7 +161,7 @@ print("ЗАДАЧА #6 :",show)
 
 is_active = True
 is_delete = False
-print("ЗАДАЧА #7 :",is_active,",",is_delete)
+print("ЗАДАЧА #7 :", is_active, ",", is_delete)
 
 
 
@@ -188,7 +188,7 @@ name = 'Andrii'
 age = 36
 is_active = True
 subscription = None
-print("ЗАДАЧА #8 :",name,",",age,",",is_active,",",subscription)
+print("ЗАДАЧА #8 :", name, ",", age, ",", is_active, ",", subscription)
 
 
 
@@ -218,9 +218,9 @@ print("ЗАДАЧА #8 :",name,",",age,",",is_active,",",subscription)
 
 length = "2.75"
 width = "1.75"
-area = float(length)*float(width)
+area = float(length) * float(width)
 show = f"With width {width} and length {length} of the room, its area is equal to {area}"
-print("ЗАДАЧА #9 :",show)
+print("ЗАДАЧА #9 :", show)
 
 
 
@@ -257,7 +257,7 @@ email = input("Your email? ")
 age = int(input("Your age? "))
 height =float(input("Your height? "))
 is_active = bool("Do you want to receive notifications? ")
-print("ЗАДАЧА #10 :",name,",",email,",",age,",",height,",",is_active)
+print("ЗАДАЧА #10 :", name, ",", email, ",", age, ",", height, ",", is_active)
 
 
 
@@ -286,8 +286,8 @@ print("ЗАДАЧА #10 :",name,",",email,",",age,",",height,",",is_active)
 
 length = float(input("length? "))
 width = float(input("width? "))
-area = length*width
-print("ЗАДАЧА #11 :",area)
+area = length * width
+print("ЗАДАЧА #11 :", area)
 
 
 
@@ -320,7 +320,7 @@ my_list = []
 my_list.insert(0, 2024)
 my_list.insert(1, 'Python')
 my_list.insert(2, 3.12)
-print("ЗАДАЧА #12 :",my_list)
+print("ЗАДАЧА #12 :", my_list)
 
 
 
@@ -347,7 +347,7 @@ some_data = ['Python']
 my_list.extend(some_data)
 my_list.insert(1, 'Python')
 my_list.reverse()
-print("ЗАДАЧА #13 :",my_list)
+print("ЗАДАЧА #13 :", my_list)
 
 
 
@@ -375,7 +375,7 @@ data = {}
 data['year'] = 2024
 data['lang'] = 'Python'
 data['version'] = 3.12
-print("ЗАДАЧА #14 :",data)
+print("ЗАДАЧА #14 :", data)
 
 
 
@@ -406,4 +406,4 @@ cat['age'] = 7
 cat['characteristics'] = ["лагідний", "кусається"]
 age = cat.get('age')
 cat.update(info)
-print("ЗАДАЧА #15 :",cat)
+print("ЗАДАЧА #15 :", cat)
